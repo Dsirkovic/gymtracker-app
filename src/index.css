@@ -1,0 +1,192 @@
+:root {
+  font-family: Comfortaa;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #3a3b3a;
+  background-color: #e3e6e4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 20;
+ 
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: greenyellow;
+}
+
+.error {
+  color:#e82215;
+}
+
+.btn {
+  margin:10px;
+  background-color:#9e3129;
+}
+
+.heading {
+  color: #3a3b3a;
+  font-size: 30px;
+}
+
+.input {
+  margin:15px;
+  height:25px;
+  padding:7px;
+  background-color: #cfd1cf;
+  border-radius: 8px;
+  border: 2px solid black;
+  color:#3a3b3a
+}
+
+.input2 {
+  height:25px;
+  padding:7px;
+  margin-right: 17px;
+  margin-left:14px;
+  background-color: #cfd1cf;
+  border-radius: 8px;
+  border: 2px solid black;
+  color:#3a3b3a
+}
+
+.submitBtn {
+  margin:10px;
+  background-color:#9e3129;
+}
+
+.submitBtn2 {
+  margin:10px;
+  background-color:#9e3129;
+  padding-left: 28px;
+  padding-right:28px;
+}
+
+.submitBtn:hover {
+  background-color: #8a2b25;
+}
+
+.submitBtn2:hover {
+  background-color: #8a2b25;
+}
+
+input::placeholder {
+  color:#9e3129;
+}
+
+.itemInput {
+  height:15px;
+  padding:7px;
+  margin-right: 17px;
+  margin-left:14px;
+  background-color: #cfd1cf;
+  border-radius: 8px;
+  border: 2px solid black;
+  color:#3a3b3a
+}
+
+.list {
+  list-style-type: none;
+}
+
+.listItem {
+  margin:15px;
+  margin-right: 70px;
+}
+
+.check {
+  margin-right: 120px;
+  width: 30px; 
+  height: 30px; 
+}
+
+.bigLabel {
+  text-decoration: underline;
+  font-size: 23px;
+}
+
+.deleteBtn {
+  background-color:#9e3129;
+  padding-left: 28px;
+  padding-right:28px;
+  margin-left: 50px;
+}
+
+.timerBtn {
+  background-color:#9e3129;
+  padding-left: 5px;
+  padding-right:5px;
+  width:80px;
+  border: 1px solid #3a3b3a;
+  margin:5px;
+}
+
+.timerNum {
+  font-size: larger;
+  margin-top:30px;
+}
+
+.deleteBtn:hover {
+  background-color: #8a2b25;
+}
+
+.timerBtn:hover {
+  background-color: #8a2b25;
+}
+
+.btn:hover {
+  background-color: #8a2b25;
+}
+
+.green {
+  color: #12a138;
+  font-size: 23px;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
