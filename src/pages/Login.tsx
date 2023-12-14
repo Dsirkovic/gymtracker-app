@@ -30,7 +30,7 @@ export const Login = () => {
       password: e.currentTarget.password.value,
     };
     setRegisteredUsers((prevUsers) => [...prevUsers, newUser]);
-    console.log("jebenti boga")
+    console.log("Didn't work, there is a problem somewhere")
     setRegistrationSuccess(true);
     e.currentTarget.reset();
 
